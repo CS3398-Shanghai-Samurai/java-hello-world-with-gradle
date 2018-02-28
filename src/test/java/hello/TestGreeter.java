@@ -64,7 +64,7 @@ public class TestGreeter {
 	
 	
 	
-	   public void testGreeter() 
+	   public void newestPBGreeterPass() 
 
    {
 
@@ -78,7 +78,7 @@ public class TestGreeter {
 	
 	
 	
-	   public void testGreeter() 
+	   public void newestPBGreeterFail() 
 
    {
 
