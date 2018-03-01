@@ -66,8 +66,6 @@ public class TestGreeter {
       g.setName("JoshFlowers");
       assertEquals(g.getName(),"JoshFlowers");
       assertEquals(g.sayHello(),"Hello JoshFlowers!");
-      assertNotEqual(g.getName(), "World");
-      
    }
 
 }
