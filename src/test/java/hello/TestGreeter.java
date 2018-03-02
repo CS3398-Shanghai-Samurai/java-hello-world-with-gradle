@@ -61,33 +61,5 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
-	
-	
-	
-	   public void newestPBGreeterPass() 
-
-   {
-
-      g.setName("PlzPass");
-
-      assertEquals(g.getName(),"PlzPass");
-
-      assertEquals(g.sayHello(),"You Passed!");
-
-   }
-	
-	
-	
-	   public void newestPBGreeterFail() 
-
-   {
-
-      g.setName("World");
-
-      assertEquals(g.getName(),"World");
-
-      assertEquals(g.sayHello(),"Hello World!");
-
-   }
 
 }
