@@ -62,4 +62,24 @@ public class TestGreeter {
 
    }
 
+   public void newestIVGreeterPass() 
+
+   {
+
+      g.setName("PassingTest");
+
+      assertEquals(g.getName(),"PassingTest");
+
+      assertEquals(g.sayHello(),"Immanuel Finally Passed!");
+
+   }
+	
+   public void newsetIVGreeterFail()
+	   
+   {
+      g.setName("PassingTest");
+	   
+      assertEquals(g.getName(),"PassingTest");
+	   
+      assertEquals(g.sayHello(),"Immanuel Finally Passed?");
 }
