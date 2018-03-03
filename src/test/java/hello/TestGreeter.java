@@ -80,9 +80,9 @@ public class TestGreeter {
 
       g.setName("Za Warudo");
 
-      assertEquals(g.getName(),"Star Platinum, Za Warudo");
+      assertEquals(g.getName(),"Star Platinum");
 
-      assertEquals(g.sayHello(),"Hello World!");
+      assertEquals(g.sayHello(),"Hello Joestar Loses!!");
 
    }
    
