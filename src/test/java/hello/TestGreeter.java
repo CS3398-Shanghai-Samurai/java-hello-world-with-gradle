@@ -62,15 +62,15 @@ public class TestGreeter {
 
    }
    
-   public void newTest<CT>GreeterPass() 
+   public void newTestCTGreeterPass() 
 
    {
 
-      g.setName("CharlesTabakForPresident");
+      g.setName("CharlesTabak2020");
 
-      assertEquals(g.getName(),"CharlesTabakForPresident");
+      assertEquals(g.getName(),"CharlesTabak2020");
 
-      assertEquals(g.sayHello(),"Hello CharlesTabakForPresident!");
+      assertEquals(g.sayHello(),"Hello CharlesTabak2020!");
 
    }
    
