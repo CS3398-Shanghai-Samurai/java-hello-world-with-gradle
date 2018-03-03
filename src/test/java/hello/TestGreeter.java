@@ -74,17 +74,17 @@ public class TestGreeter {
 
    }
    
- /*  public void newTest<CT>GreeterFail() 
+   public void newTestCTGreeterFail() 
 
    {
 
-      g.setName("World");
+      g.setName("Za Warudo");
 
-      assertEquals(g.getName(),"World");
+      assertEquals(g.getName(),"Star Platinum, Za Warudo");
 
-      assertEquals(g.sayHello(),"Hello World!");
+      assertEquals(g.sayHello(),"Hello Warudo!");
 
-   }*/
+   }
    
 
 }
