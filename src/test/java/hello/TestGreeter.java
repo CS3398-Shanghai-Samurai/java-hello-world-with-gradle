@@ -62,7 +62,7 @@ public class TestGreeter {
 
    }
    
-  /* public void newTestCTGreeterPass() 
+   public void newTestCTGreeterPass() 
 
    {
 
@@ -72,15 +72,15 @@ public class TestGreeter {
 
       assertEquals(g.sayHello(),"Hello CharlesTabak2020!");
 
-   }*/
+   }
    
    public void newTestCTGreeterFail() 
 
    {
 
-      g.setName("Za Warudo");
+      g.setName("EasyFail");
 
-      assertEquals(g.getName(),"Star Platinum");
+      assertEquals(g.getName(),"BreasyPass");
 
       assertEquals(g.sayHello(),"Hello Joestar Loses!!");
 
