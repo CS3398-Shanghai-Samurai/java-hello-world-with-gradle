@@ -62,7 +62,7 @@ public class TestGreeter {
 
    }
    
-   public void newTestCTGreeterPass() 
+  /* public void newTestCTGreeterPass() 
 
    {
 
@@ -72,7 +72,7 @@ public class TestGreeter {
 
       assertEquals(g.sayHello(),"Hello CharlesTabak2020!");
 
-   }
+   }*/
    
    public void newTestCTGreeterFail() 
 
@@ -82,7 +82,7 @@ public class TestGreeter {
 
       assertEquals(g.getName(),"Star Platinum, Za Warudo");
 
-      assertEquals(g.sayHello(),"Hello Warudo!");
+      assertEquals(g.sayHello(),"Hello World!");
 
    }
    
