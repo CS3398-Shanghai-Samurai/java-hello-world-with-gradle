@@ -50,7 +50,7 @@ public class TestGreeter {
 
    @Test
 
-   public void testGreeter() 
+ /*  public void testGreeter() 
 
    {
 
@@ -60,9 +60,9 @@ public class TestGreeter {
 
       assertEquals(g.sayHello(),"Hello World!");
 
-   }
+   }*/
    
-   public void newTestCTGreeterPass() 
+ /*  public void newTestCTGreeterPass() 
 
    {
 
@@ -72,7 +72,7 @@ public class TestGreeter {
 
       assertEquals(g.sayHello(),"Hello CharlesTabak2020!");
 
-   }
+   }*/
    
    public void newTestCTGreeterFail() 
 
