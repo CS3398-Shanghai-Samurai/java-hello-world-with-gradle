@@ -78,16 +78,6 @@ public class TestGreeter {
 	
 	
 	
-	   public void newestPBGreeterFail() 
 
-   {
-
-      g.setName("World");
-
-      assertEquals(g.getName(),"World");
-
-      assertEquals(g.sayHello(),"Hello World!");
-
-   }
 
 }
