@@ -49,7 +49,7 @@ public class TestGreeter {
 	
 
    @Test
-
+// to fail the build I commented out the testGreeter() function and it resulted in a build fail.
    //public void testGreeter() 
 
   // {
