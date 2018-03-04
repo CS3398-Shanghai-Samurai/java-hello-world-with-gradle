@@ -77,7 +77,7 @@ public class TestGreeter {
    public void newsetIVGreeterFail()
 	   
    {
-      g.setName("PassingTest");
+      //g.setName("PassingTest");
 	   
       assertEquals(g.getName(),"Failing Test");
 	   
