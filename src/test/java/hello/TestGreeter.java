@@ -70,7 +70,7 @@ public class TestGreeter {
 	
    @Test
 
-   public void newtestJRFgreeterPass()
+   public void newtestJRFgreeterFail()
 
    {
       g.setName("Planet Earth");
