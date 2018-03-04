@@ -67,15 +67,4 @@ public class TestGreeter {
       assertEquals(g.getName(),"JoshFlowers");
       assertEquals(g.sayHello(),"Hello JoshFlowers!");
    }
-	
-   @Test
-
-   public void newtestJRFgreeterFail()
-
-   {
-      g.setName("Planet Earth");
-      assertEquals(g.getName(),"Planet Earth");
-      assertEquals(g.sayHello(),"Hello JoshFlowers!");
-   }
-
 }
