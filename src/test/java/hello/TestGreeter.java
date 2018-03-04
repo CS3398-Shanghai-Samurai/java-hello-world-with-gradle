@@ -50,9 +50,9 @@ public class TestGreeter {
 
    @Test
 
-   public void testGreeter() 
+   //public void testGreeter() 
 
-   {
+  // {
 
       //g.setName("World");
 
@@ -60,7 +60,7 @@ public class TestGreeter {
 
       //assertEquals(g.sayHello(),"Hello World!");
 
-   }
+ //  }
 
    public void newestIVGreeterPass() 
 
