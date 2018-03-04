@@ -68,5 +68,12 @@ public class TestGreeter {
 	   assertEquals(g.getName(), "Damian Bocanegra");
 	   assertEquals(g.sayHello(), "Hello World!");
    }
+	
+   public void newestDBGreeterFail()
+   {
+           g.setName(appleJesus); #Should fail since the parameter is invaild
+           assertEquals(g.getName(), "appleJesus");
+	   assertEquals(g.sayHello(), "Hello AppleJesus");
+   }
 
 }
