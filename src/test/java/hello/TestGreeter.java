@@ -50,17 +50,17 @@ public class TestGreeter {
 
    @Test
 // to fail the build I commented out the testGreeter() function and it resulted in a build fail.
-   //public void testGreeter() 
+   public void testGreeter() 
 
-  // {
+   {
 
-      //g.setName("World");
+      g.setName("World");
 
-      //assertEquals(g.getName(),"World");
+      assertEquals(g.getName(),"World");
 
-      //assertEquals(g.sayHello(),"Hello World!");
+      assertEquals(g.sayHello(),"Hello World!");
 
- //  }
+   }
 
    public void newestIVGreeterPass() 
 
