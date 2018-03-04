@@ -78,12 +78,11 @@ public class TestGreeter {
 	
 	
 	
-	hopefully deleting brackets and adding random text will result in a build fail!
 	
 	
 	public void newestPBGreeterFail() 
-
-   
+	{
+   hopefully deleting brackets and adding random text will result in a build fail!
 
       g.setName("PlzPass");
 
@@ -93,7 +92,7 @@ public class TestGreeter {
 
    9739823
 	
-	
+	}
 
 
 }
