@@ -61,5 +61,12 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
+	
+   public void newestDBGreeterPass()
+   {
+	   g.setName("Damian Bocanegra");
+	   assertEquals(g.getName(), "Damian Bocanegra");
+	   assertEquals(g.sayHello(), "Hello World!");
+   }
 
 }
