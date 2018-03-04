@@ -84,7 +84,7 @@ public class TestGreeter {
 
       g.setName("PlzPass");
 
-      assertEquals(g.getName(),"PlzDontPass");
+      assertEquals(g.getName(),"Plz Dont Pass");
 
       assertEquals(g.sayHello(),"You Didn't Pass!");
 
